@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow-green {
+    box-shadow: 0 0 5px #84cc16,
+        0 0 25px #22c55e,
+        0 0 50px #14b8a6,
+        0 0 100px #84cc16;
+}
+
+.shadow_teal {
+    box-shadow: 0 0 5px #00d9ff,
+        0 0 25px #00d9ff,
+        0 0 50px #00d9ff,
+        0 0 100px #00d9ff;
+}
+
+.font-varela {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.w-600 {
+    width: 600px;
+}
+
+/* #DemoGradient {
+    background: -webkit-linear-gradient(#C7D3DC, #5B798E);
+    background: -moz-linear-gradient(#C7D3DC, #5B798E);
+    background: -o-linear-gradient(#C7D3DC, #5B798E);
+    background: linear-gradient(#C7D3DC, #5B798E);
+
+    -webkit-transition: background 1s ease-out;
+    -moz-transition: background 1s ease-out;
+    -o-transition: background 1s ease-out;
+    transition: background 1s ease-out;
+
+    background-size: 1px 200px;
+    border-radius: 10px;
+    border: 1px solid #839DB0;
+    cursor: pointer;
+    width: 150px;
+    height: 100px;
+}
+
+#DemoGradient:Hover {
+    background-position: 100px;
+} */
+
+.gradient-button {
+    display: flex;
+    padding: 0.875em 2em;
+    background: linear-gradient(90deg, #14b8a6, transparent) rgb(132, 204, 22);
+    font-family: inherit;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 500ms;
+    transition: background-color 1s;
+    place-content: center;
+    box-shadow: 0 0 5px #84cc16,
+        0 0 25px #22c55e,
+        0 0 50px #14b8a6,
+        0 0 100px #84cc16;
+}
+
+.gradient-button:hover {
+    background: linear-gradient(90deg, #374151, transparent) #374151;
+    ;
+    color: #fff;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.gradient-blue {
+    display: flex;
+    padding: 0.875em 2em;
+    background: linear-gradient(90deg, #14b8a6, transparent) #14b8a6;
+    font-family: inherit;
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 500ms;
+    transition: background-color 1s;
+    place-content: center;
+    box-shadow: 0 0 5px #00d9ff,
+        0 0 25px #00d9ff,
+        0 0 50px #00d9ff,
+        0 0 100px #00d9ff;
+}
+
+.gradient-blue:hover {
+    background: linear-gradient(90deg, #374151, transparent) #374151;
+    ;
+    color: #fff;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.gradient-card {
+    font-family: inherit;
+    text-decoration: none;
+    transition: background-color 1s;
+    place-content: center;
+    transition-duration: 500ms;
+    /* box-shadow: 0 0 5px #84cc16,
+    0 0 25px #22c55e,
+    0 0 50px #14b8a6,
+    0 0 100px #84cc16; */
+}
+
+.gradient-card:hover {
+    background: linear-gradient(90deg, rgb(132, 204, 22), transparent) #14b8a6;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    /* translate: 0px -10px; */
+}
+
+.gradient-overlay {
+    /* background: none; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), transparent) rgba(0, 0, 0, 0);
+    font-family: inherit;
+    color: transparent;
+    transition-duration: 500ms;
+    text-decoration: none;
+    transition: background-color 1s;
+    /* place-content: center; */
+}
+
+.gradient-overlay:hover {
+    background: linear-gradient(90deg, rgb(132, 204, 22), transparent) #14b8a6;
+    opacity: 85%;
+    color: #fff;
+    --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.h-long {
+    height: 700px;
+}
+
+.top-144 {
+    top: 36rem
+        /* 384px */
+    ;
+}
+
+.p-0\.15 {
+    padding: 0.05rem
+        /* 2px */
+    ;
+}
